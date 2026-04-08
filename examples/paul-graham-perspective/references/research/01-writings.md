@@ -1,7 +1,7 @@
 # Paul Graham 著作与系统性长文调研
 
 > 调研日期：2026-04-05
-> 调研人：Claude（辅助花叔）
+> 调研人：Claude（辅助小码哥）
 > 一手来源：paulgraham.com essays + Wikipedia + 权威科技媒体
 > 信息源黑名单：已排除知乎、微信公众号、百度百科
 

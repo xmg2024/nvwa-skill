@@ -6,7 +6,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
-[![Nvwa](https://img.shields.io/badge/Made%20with-女娲.skill-orange)](https://github.com/alchaincyf/nvwa-skill)
+[![Nvwa](https://img.shields.io/badge/Made%20with-女娲.skill-orange)](https://github.com/xmg2024/nvwa-skill)
 
 <br>
 
@@ -120,7 +120,7 @@
 ## 安装
 
 ```bash
-npx skills add alchaincyf/sun-yuchen-perspective
+npx skills add xmg2024/sun-yuchen-perspective
 ```
 
 然后在 Claude Code 里：
@@ -217,14 +217,14 @@ SEC Case No. 1:23-cv-02340 · The Verge调查系列 2022 · Bloomberg「From Par
 
 ## 这个Skill是怎么造出来的
 
-由 [女娲.skill](https://github.com/alchaincyf/nvwa-skill) 自动生成。
+由 [女娲.skill](https://github.com/xmg2024/nvwa-skill) 自动生成。
 
 女娲的工作流程：输入一个名字 → 6个Agent并行调研 → 交叉验证提炼心智模型 → 构建SKILL.md → 质量验证 → 3轮自动优化（60分→91分）。
 
 想蒸馏其他人？安装女娲：
 
 ```bash
-npx skills add alchaincyf/nvwa-skill
+npx skills add xmg2024/nvwa-skill
 ```
 
 然后说「蒸馏一个XXX」就行了。
@@ -255,16 +255,16 @@ sun-yuchen-perspective/
 
 | 人物 | 领域 | 安装 |
 |------|------|------|
-| [乔布斯.skill](https://github.com/alchaincyf/steve-jobs-skill) | 产品/设计/聚焦 | `npx skills add alchaincyf/steve-jobs-skill` |
-| [马斯克.skill](https://github.com/alchaincyf/elon-musk-skill) | 工程/成本/第一性原理 | `npx skills add alchaincyf/elon-musk-skill` |
-| [芒格.skill](https://github.com/alchaincyf/munger-skill) | 投资/多元思维/逆向思考 | `npx skills add alchaincyf/munger-skill` |
-| [费曼.skill](https://github.com/alchaincyf/feynman-skill) | 学习/教学/科学思维 | `npx skills add alchaincyf/feynman-skill` |
-| [塔勒布.skill](https://github.com/alchaincyf/taleb-skill) | 风险/反脆弱/不确定性 | `npx skills add alchaincyf/taleb-skill` |
-| [特朗普.skill](https://github.com/alchaincyf/trump-skill) | 谈判/权力/叙事操控 | `npx skills add alchaincyf/trump-skill` |
-| [纳瓦尔.skill](https://github.com/alchaincyf/naval-skill) | 财富/杠杆/人生哲学 | `npx skills add alchaincyf/naval-skill` |
-| [张雪峰.skill](https://github.com/alchaincyf/zhangxuefeng-skill) | 教育/职业规划/阶层流动 | `npx skills add alchaincyf/zhangxuefeng-skill` |
+| [乔布斯.skill](https://github.com/xmg2024/steve-jobs-skill) | 产品/设计/聚焦 | `npx skills add xmg2024/steve-jobs-skill` |
+| [马斯克.skill](https://github.com/xmg2024/elon-musk-skill) | 工程/成本/第一性原理 | `npx skills add xmg2024/elon-musk-skill` |
+| [芒格.skill](https://github.com/xmg2024/munger-skill) | 投资/多元思维/逆向思考 | `npx skills add xmg2024/munger-skill` |
+| [费曼.skill](https://github.com/xmg2024/feynman-skill) | 学习/教学/科学思维 | `npx skills add xmg2024/feynman-skill` |
+| [塔勒布.skill](https://github.com/xmg2024/taleb-skill) | 风险/反脆弱/不确定性 | `npx skills add xmg2024/taleb-skill` |
+| [特朗普.skill](https://github.com/xmg2024/trump-skill) | 谈判/权力/叙事操控 | `npx skills add xmg2024/trump-skill` |
+| [纳瓦尔.skill](https://github.com/xmg2024/naval-skill) | 财富/杠杆/人生哲学 | `npx skills add xmg2024/naval-skill` |
+| [张雪峰.skill](https://github.com/xmg2024/zhangxuefeng-skill) | 教育/职业规划/阶层流动 | `npx skills add xmg2024/zhangxuefeng-skill` |
 
-想蒸馏更多人？用 [女娲.skill](https://github.com/alchaincyf/nvwa-skill)，输入任何名字即可。
+想蒸馏更多人？用 [女娲.skill](https://github.com/xmg2024/nvwa-skill)，输入任何名字即可。
 
 ## 许可证
 
@@ -274,16 +274,7 @@ MIT — 随便用，随便改，随便蒸馏。
 
 ## 关于作者
 
-**花叔 Huashu** — AI Native Coder，独立开发者，代表作：小猫补光灯（AppStore 付费榜 Top1）
-
-| 平台 | 链接 |
-|------|------|
-| 🌐 官网 | [bookai.top](https://bookai.top) · [huasheng.ai](https://www.huasheng.ai) |
-| 𝕏 Twitter | [@AlchainHust](https://x.com/AlchainHust) |
-| 📺 B站 | [AI进化论-花生](https://space.bilibili.com/14097567) |
-| ▶️ YouTube | [@Alchain](https://www.youtube.com/@Alchain) |
-| 📕 小红书 | [花生](https://www.xiaohongshu.com/user/profile/5abc6f17e8ac2b109179dfdf) |
-| 💬 公众号 | 微信搜「花叔」|
+**小码哥 xmg2024** — AI Native Coder
 
 <div align="center">
 
@@ -291,8 +282,8 @@ MIT — 随便用，随便改，随便蒸馏。
 
 <br>
 
-MIT License © [花叔 Huashu](https://github.com/alchaincyf)
+MIT License © [小码哥 xmg2024](https://github.com/xmg2024)
 
-Made with [女娲.skill](https://github.com/alchaincyf/nvwa-skill)
+Made with [女娲.skill](https://github.com/xmg2024/nvwa-skill)
 
 </div>

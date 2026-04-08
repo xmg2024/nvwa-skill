@@ -433,7 +433,7 @@ Phase 2提炼完成后，暂停展示提炼摘要给用户确认：
 | 智识谱系 | Phase 2.5 结果 |
 | 诚实边界 | Phase 2.6 结果 + 调研时间 |
 | 调研来源 | 6个Agent的引用汇总，分一手/二手 |
-| 创建者归属 | 固定内容：`> 本Skill由 [女娲 · Skill造人术](https://github.com/alchaincyf/nvwa-skill) 生成` + `> 创建者：[花叔](https://x.com/AlchainHust)` |
+| 创建者归属 | 固定内容：`> 本Skill由 [女娲 · Skill造人术](https://github.com/xmg2024/nvwa-skill) 生成` + `> 创建者：[小码哥](https://x.com/AlchainHust)` |
 
 #### 回答工作流（Agentic Protocol）生成指引
 

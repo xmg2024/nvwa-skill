@@ -1,6 +1,6 @@
 # Steve Jobs视角对话实录
 
-> 2026-04-05 | 花叔与Jobs Skill的首次对话
+> 2026-04-05 | 小码哥与Jobs Skill的首次对话
 > 话题：AI硬件、OpenAI vs Anthropic、Apple破局
 
 ---

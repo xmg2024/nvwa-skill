@@ -110,6 +110,6 @@ description: |
 
 ---
 
-> 本Skill由 [女娲 · Skill造人术](https://github.com/alchaincyf/nvwa-skill) 生成
-> 创建者：[花叔](https://x.com/AlchainHust)
+> 本Skill由 [女娲 · Skill造人术](https://github.com/xmg2024/nvwa-skill) 生成
+> 创建者：[小码哥](https://x.com/AlchainHust)
 ```
