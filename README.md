@@ -99,8 +99,6 @@ Naval     ❯ 你列了三个欲望。每个欲望都是你跟不快乐签的一
 
 ## 安装
 
-终端：
-
 ```bash
 npx skills add xmg2024/nvwa-skill
 or
@@ -127,7 +125,7 @@ GIT_HTTP_CONNECT_TIMEOUT=120 npx skills add https://github.com/xmg2024/nvwa-skil
 
 ## 女娲蒸馏了什么
 
-蒸馏各领域最强的人，需要提取比日常工作习惯更深的东西。女娲提取六层：
+蒸馏各领域最强的人，需要提取比日常工作习惯更深的东西。女娲提取五层：
 
 | 层次 | 说明 |
 |---|---|
@@ -159,7 +157,29 @@ GIT_HTTP_CONNECT_TIMEOUT=120 npx skills add https://github.com/xmg2024/nvwa-skil
 
 | 人物 | 领域 | 独立仓库 | 一键安装 |
 |------|------|---------|---------|
+| 🔥 **Paul Graham** | 创业/写作/产品/人生哲学 | [paul-graham-skill](https://github.com/xmg2024/paul-graham-skill) | `npx skills add xmg2024/paul-graham-skill` |
+| 🔥 **张一鸣** | 产品/组织/全球化/人才 | [zhang-yiming-skill](https://github.com/xmg2024/zhang-yiming-skill) | `npx skills add xmg2024/zhang-yiming-skill` |
+| 🔥 **Karpathy** | AI/工程/教育/开源 | [karpathy-skill](https://github.com/xmg2024/karpathy-skill) | `npx skills add xmg2024/karpathy-skill` |
+| 🔥 **Ilya Sutskever** | AI安全/scaling/研究品味 | [ilya-sutskever-skill](https://github.com/xmg2024/ilya-sutskever-skill) | `npx skills add xmg2024/ilya-sutskever-skill` |
+| 🔥 **MrBeast** | 内容创造/YouTube方法论 | [mrbeast-skill](https://github.com/xmg2024/mrbeast-skill) | `npx skills add xmg2024/mrbeast-skill` |
+| 🔥 **特朗普** | 谈判/权力/传播/行为预判 | [trump-skill](https://github.com/xmg2024/trump-skill) | `npx skills add xmg2024/trump-skill` |
+| ⭐ **乔布斯** | 产品/设计/战略 | [steve-jobs-skill](https://github.com/xmg2024/steve-jobs-skill) | `npx skills add xmg2024/steve-jobs-skill` |
+| **马斯克** | 工程/成本/第一性原理 | [elon-musk-skill](https://github.com/xmg2024/elon-musk-skill) | `npx skills add xmg2024/elon-musk-skill` |
+| **芒格** | 投资/多元思维/逆向思考 | [munger-skill](https://github.com/xmg2024/munger-skill) | `npx skills add xmg2024/munger-skill` |
+| **费曼** | 学习/教学/科学思维 | [feynman-skill](https://github.com/xmg2024/feynman-skill) | `npx skills add xmg2024/feynman-skill` |
+| **纳瓦尔** | 财富/杠杆/人生哲学 | [naval-skill](https://github.com/xmg2024/naval-skill) | `npx skills add xmg2024/naval-skill` |
+| **塔勒布** | 风险/反脆弱/不确定性 | [taleb-skill](https://github.com/xmg2024/taleb-skill) | `npx skills add xmg2024/taleb-skill` |
 | **张雪峰** | 教育/职业规划/阶层流动 | [zhangxuefeng-skill](https://github.com/xmg2024/zhangxuefeng-skill) | `npx skills add xmg2024/zhangxuefeng-skill` |
+
+### 主题Skill
+
+| 主题 | 领域 | 独立仓库 | 一键安装 |
+|------|------|---------|---------|
+| **X导师** | X/Twitter运营全栈 | [x-mentor-skill](https://github.com/xmg2024/x-mentor-skill) | `npx skills add xmg2024/x-mentor-skill` |
+
+人物Skill蒸馏一个人的思维方式；主题Skill蒸馏一个领域的方法论。每个仓库都包含完整的调研数据和效果示例对话。
+
+想蒸馏不在列表里的人或主题？安装女娲，说「蒸馏一个XXX」就行。
 
 ---
 
@@ -176,6 +196,35 @@ GIT_HTTP_CONNECT_TIMEOUT=120 npx skills add https://github.com/xmg2024/nvwa-skil
 **4. 质量验证**——拿3个此人公开回答过的问题测试，方向一致才通过。再用1个他没讨论过的问题测试，Skill应该表现出适度不确定而非斩钉截铁。
 
 完整方法论在 `references/extraction-framework.md`。
+
+---
+
+## 仓库结构
+
+```
+nvwa-skill/
+├── SKILL.md                      # 女娲本体
+├── references/
+│   ├── extraction-framework.md   # 提炼方法论（想深入了解看这个）
+│   └── skill-template.md         # 生成Skill的模板
+└── examples/                          # 13个人物 + 1个主题，含完整调研数据
+    ├── steve-jobs-perspective/        # ⭐ 乔布斯（含实战对话记录）
+    ├── paul-graham-perspective/       # Paul Graham
+    ├── zhang-yiming-perspective/      # 张一鸣
+    ├── andrej-karpathy-perspective/   # Karpathy
+    ├── ilya-sutskever-perspective/    # Ilya Sutskever
+    ├── trump-perspective/             # 特朗普
+    ├── mrbeast-perspective/           # MrBeast
+    ├── elon-musk-perspective/         # 马斯克
+    ├── munger-perspective/            # 查理·芒格
+    ├── feynman-perspective/           # 费曼
+    ├── naval-perspective/             # Naval Ravikant
+    ├── taleb-perspective/             # 塔勒布
+    ├── zhangxuefeng-perspective/      # 张雪峰
+    └── x-mastery-mentor/             # X导师（主题Skill）
+```
+
+调研过程全透明。每个example都包含完整的调研文件，你可以看到信息怎么被收集、筛选、变成心智模型。乔布斯的示例还附带了一段完整的实战对话记录（聊AI硬件、OpenAI vs Anthropic、Apple破局），展示Skill在多轮深度对话中的表现。
 
 ---
 
@@ -231,6 +280,6 @@ Not role-playing. Cognitive architecture extraction.
 
 **How it works**: Input a name → 6 parallel research agents → 40+ primary sources → triple-verified mental models → quality-validated SKILL.md
 
-**7 examples included**: Steve Jobs, Elon Musk, Naval Ravikant, Charlie Munger, Feynman, Taleb, and Zhang Xuefeng — all with full research data. The Jobs example includes a complete multi-turn conversation demo.
+**13 person skills + 1 topic skill included** — all with full research data. The Jobs example includes a complete multi-turn conversation demo.
 
 See the Chinese README above for live examples and methodology.
