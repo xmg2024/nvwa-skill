@@ -244,7 +244,7 @@ nvwa-skill/
 
 ## 关于作者
 
-**小码哥 xmg2024** — AI Native Coder
+**小码哥 xmg2024(https://github.com/xmg2024)** — AI Native Coder
 
 ## 许可证
 
