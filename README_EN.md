@@ -165,7 +165,29 @@ Nvwa has distilled 13 characters + 1 topic. Each is an independent, directly ins
 
 | Character | Domain | Standalone Repo | One-Click Install |
 |-----------|--------|----------------|-------------------|
+| 🔥 **Paul Graham** | Startups / Writing / Products / Life Philosophy | [paul-graham-skill](https://github.com/xmg2024/paul-graham-skill) | `npx skills add xmg2024/paul-graham-skill` |
+| 🔥 **Zhang Yiming** | Products / Organization / Globalization / Talent | [zhang-yiming-skill](https://github.com/xmg2024/zhang-yiming-skill) | `npx skills add xmg2024/zhang-yiming-skill` |
+| 🔥 **Karpathy** | AI / Engineering / Education / Open Source | [karpathy-skill](https://github.com/xmg2024/karpathy-skill) | `npx skills add xmg2024/karpathy-skill` |
+| 🔥 **Ilya Sutskever** | AI Safety / Scaling / Research Taste | [ilya-sutskever-skill](https://github.com/xmg2024/ilya-sutskever-skill) | `npx skills add xmg2024/ilya-sutskever-skill` |
+| 🔥 **MrBeast** | Content Creation / YouTube Methodology | [mrbeast-skill](https://github.com/xmg2024/mrbeast-skill) | `npx skills add xmg2024/mrbeast-skill` |
+| 🔥 **Trump** | Negotiation / Power / Communication / Behavior Prediction | [trump-skill](https://github.com/xmg2024/trump-skill) | `npx skills add xmg2024/trump-skill` |
+| ⭐ **Steve Jobs** | Products / Design / Strategy | [steve-jobs-skill](https://github.com/xmg2024/steve-jobs-skill) | `npx skills add xmg2024/steve-jobs-skill` |
+| **Elon Musk** | Engineering / Cost / First Principles | [elon-musk-skill](https://github.com/xmg2024/elon-musk-skill) | `npx skills add xmg2024/elon-musk-skill` |
+| **Munger** | Investment / Multidisciplinary Thinking / Inversion | [munger-skill](https://github.com/xmg2024/munger-skill) | `npx skills add xmg2024/munger-skill` |
+| **Feynman** | Learning / Teaching / Scientific Thinking | [feynman-skill](https://github.com/xmg2024/feynman-skill) | `npx skills add xmg2024/feynman-skill` |
+| **Naval** | Wealth / Leverage / Life Philosophy | [naval-skill](https://github.com/xmg2024/naval-skill) | `npx skills add xmg2024/naval-skill` |
+| **Taleb** | Risk / Antifragility / Uncertainty | [taleb-skill](https://github.com/xmg2024/taleb-skill) | `npx skills add xmg2024/taleb-skill` |
 | **Zhang Xuefeng** | Education / Career Planning / Class Mobility | [zhangxuefeng-skill](https://github.com/xmg2024/zhangxuefeng-skill) | `npx skills add xmg2024/zhangxuefeng-skill` |
+
+### Topic Skills
+
+| Topic | Domain | Standalone Repo | One-Click Install |
+|-------|--------|----------------|-------------------|
+| **X Mentor** | Full-Stack X/Twitter Operations | [x-mentor-skill](https://github.com/xmg2024/x-mentor-skill) | `npx skills add xmg2024/x-mentor-skill` |
+
+Character skills distill a person's way of thinking; topic skills distill a domain's methodology. Each repo includes full research data and example conversations.
+
+Want to distill someone not on the list? Install Nvwa and say "Distill [name]."
 
 ---
 
@@ -182,6 +204,35 @@ Input a name, and Nvwa does four things:
 **4. Quality validation** — test with 3 questions the person publicly answered; the direction must match. Then test with 1 question they never addressed; the skill should show appropriate uncertainty rather than false confidence.
 
 Full methodology in `references/extraction-framework.md`.
+
+---
+
+## Repository Structure
+
+```
+nvwa-skill/
+├── SKILL.md                      # Nvwa core
+├── references/
+│   ├── extraction-framework.md   # Extraction methodology (read this to go deeper)
+│   └── skill-template.md         # Template for generating skills
+└── examples/                          # 13 characters + 1 topic, with full research data
+    ├── steve-jobs-perspective/        # ⭐ Jobs (includes real conversation records)
+    ├── paul-graham-perspective/       # Paul Graham
+    ├── zhang-yiming-perspective/      # Zhang Yiming
+    ├── andrej-karpathy-perspective/   # Karpathy
+    ├── ilya-sutskever-perspective/    # Ilya Sutskever
+    ├── trump-perspective/             # Trump
+    ├── mrbeast-perspective/           # MrBeast
+    ├── elon-musk-perspective/         # Musk
+    ├── munger-perspective/            # Charlie Munger
+    ├── feynman-perspective/           # Feynman
+    ├── naval-perspective/             # Naval Ravikant
+    ├── taleb-perspective/             # Taleb
+    ├── zhangxuefeng-perspective/      # Zhang Xuefeng
+    └── x-mastery-mentor/             # X Mentor (topic skill)
+```
+
+The research process is fully transparent. Each example includes complete research files — you can see how information was collected, filtered, and turned into mental models. The Jobs example also includes a complete real conversation (on AI hardware, OpenAI vs Anthropic, Apple's path), showing how the skill performs in multi-turn deep dialogue.
 
 ---
 
